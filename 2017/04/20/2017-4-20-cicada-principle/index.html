@@ -5,9 +5,7 @@
 <p>再来看看13年蝉和17年蝉。13和17是质数，只能被1和它本身整除。也就是说，除非天敌每年都繁殖，或者每隔13或17年繁殖一代，周期蝉才会遇到天敌大量繁殖的情况。如果天敌的繁衍周期为2年，那只会在26年或者34年后才会遇到天敌的繁衍期。这么长的时间，天敌的种群数量早就回落到正常水平了。</p>
 <p>这种以质数作为循环周期来增加“自然随机性”的策略就叫做“蝉原则”。</p>
 <h2 id="CSS3中的蝉原则"><a href="#CSS3中的蝉原则" class="headerlink" title="CSS3中的蝉原则"></a>CSS3中的蝉原则</h2><p>网页设计经常会要求随机效果。比如元素颜色<br><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-class">.demo</span><span class="selector-pseudo">:nth-child(1n)</span>&#123; <span class="attribute">background</span>:red; &#125;</span><br><span class="line"><span class="selector-class">.demo</span><span class="selector-pseudo">:nth-child(2n)</span>&#123; <span class="attribute">background</span>:orange; &#125;</span><br><span class="line"><span class="selector-class">.demo</span><span class="selector-pseudo">:nth-child(3n)</span>&#123; <span class="attribute">background</span>:yellow; &#125;</span><br><span class="line"><span class="selector-class">.demo</span><span class="selector-pseudo">:nth-child(5n)</span>&#123; <span class="attribute">background</span>:green; &#125;</span><br><span class="line"><span class="selector-class">.demo</span><span class="selector-pseudo">:nth-child(11n)</span>&#123; <span class="attribute">background</span>:blue; &#125;</span><br><span class="line"><span class="selector-class">.demo</span><span class="selector-pseudo">:nth-child(13n)</span>&#123; <span class="attribute">background</span>:purple; &#125;</span><br></pre></td></tr></table></figure></p>
-<blockquote>
-<p>虽然说1不是素数，为了效果看上去自然还是加上了 <code>1n</code>。</p>
-</blockquote>
+<p><em>虽然说1不是素数，为了效果看上去自然还是加上了 <code>1n</code>。</em></p>
 <p>另外一个经典案例，在 <a href="http://lea.verou.me/css3patterns" target="_blank" rel="noopener">CSS3 Patterns Gallery</a> 上有一个 Cicada stripes 背景</p>
 <img src="/2017/04/20/2017-4-20-cicada-principle/cicada_stripes.png" title="image01">
 <p>名字叫“蝉条纹”。我们再看看它的css</p>
